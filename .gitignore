@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Model files
+model/*.pkl
+*.h5
+*.pt
+*.pth
+
+# Data (optional - you might want to track small datasets)
+data/raw/*.csv
+data/processed/*.csv
+
+# Reports
+reports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment variables
+.env
